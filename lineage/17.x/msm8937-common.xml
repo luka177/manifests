@@ -2,7 +2,7 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/cedric" name="moto-msm8937/android_device_motorola_cedric" />
+  <project path="device/motorola/cedric" name="kiam001/android_device_motorola_cedric-2" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" />
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" />
   <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" />
