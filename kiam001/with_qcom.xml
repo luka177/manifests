@@ -12,5 +12,6 @@
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-17.1" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="lineage-17.1" />
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="github" revision="lineage-17.1" />
 
 </manifest>
