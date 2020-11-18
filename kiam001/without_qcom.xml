@@ -2,14 +2,14 @@
 <manifest>
 
   <!--Device repos--> 
-  <project path="device/motorola/cedric" name="kiam001/android_device_motorola_cedric-2" revision="lineage-17.1"/>
-  <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" revision="lineage-17.1"/>
-  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" revision="lineage-17.1"/>
-  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" revision="lineage-17.1"/>
-  <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" revision="rebase" />
-  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" revision="lineage-17.1"/>
+  <project path="device/motorola/cedric" name="kiam001/android_device_motorola_cedric-2"  remote="github" revision="lineage-17.1"/>
+  <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" remote="github" revision="lineage-17.1"/>
+  <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" remote="github" revision="lineage-17.1"/>
+  <project path="device/motorola/msm8937-common" name="moto-msm8937/android_device_motorola_msm8937-common" remote="github" revision="lineage-17.1"/>
+  <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" remote="github" revision="rebase" />
+  <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="github" revision="lineage-17.1"/>
   
   <!--Dependencies-->
-  <project path="external/bson" name="LineageOS/android_external_bson" revision="lineage-17.1"/>
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-17.1"/>
 
 </manifest>
