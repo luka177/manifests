@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="gerrit"
+          fetch="https://gerrit.kiam001.tk" />
+
   <!--Device repos--> 
   <project path="device/motorola/cedric" name="kiam001/android_device_motorola_cedric-2" remote="github" revision="lineage-17.1" />
   <project path="device/motorola/hannah" name="moto-msm8937/android_device_motorola_hannah" remote="github" revision="lineage-17.1" />
   <project path="device/motorola/montana" name="moto-msm8937/android_device_motorola_montana" remote="github" revision="lineage-17.1" />
-  <project path="device/motorola/msm8937-common" name="kiam001/android_device_motorola_msm8937-common" remote="github" revision="lineage-17.1" />
+  <!--<project path="device/motorola/msm8937-common" name="kiam001/android_device_motorola_msm8937-common" remote="github" revision="lineage-17.1" />-->
+  <project path="device/motorola/msm8937-common" name="android/device/motorola/msm8937-common" remote="gerrit" revision="535e9c0b185afbada621b7be4ad420d1db32b31e" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" remote="github" revision="rebase" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="github" revision="lineage-17.1" />
   
