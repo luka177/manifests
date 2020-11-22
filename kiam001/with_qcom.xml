@@ -11,6 +11,10 @@
   <project path="device/motorola/msm8937-common" name="kiam001/android_device_motorola_msm8937-common" remote="github" revision="lineage-17.1" />
   <project path="kernel/motorola/msm8953" name="JarlPenguin/android_kernel_motorola_msm8953" remote="github" revision="lineage-17.1" />
   <project path="vendor/motorola" name="moto-msm8937/proprietary_vendor_motorola" remote="github" revision="lineage-17.1" />
+  <project path="device/nokia/PL2" name="NOKIA-DEVICE-TREE/device_nokia_PL2" remote="github" revision="main" />
+  <project path="device/nokia/sdm660-common" name="NOKIA-DEVICE-TREE/device_nokia_sdm660-common" remote="github" revision="main" /> 
+  <project path="kernel/nokia/sdm660" name="NOKIA-DEVICE-TREE/kernel_nokia_sdm660" remote="github" revision="main" />
+  <project path="vendor/nokia" name="NOKIA-DEVICE-TREE/vendor_nokia" remote="github" revision="main" />
   
   <!--Dependencies-->
   <project path="external/bson" name="LineageOS/android_external_bson" remote="github" revision="lineage-17.1" />
